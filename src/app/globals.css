@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #1B6B4A;
+  --color-primary-light: #2a8c63;
+  --color-primary-dark: #145237;
+  --color-accent: #D4A017;
+  --color-accent-light: #e6b82e;
+  --color-dark: #1A1A2E;
+  --color-bg: #FAFAFA;
+  --color-error: #E53935;
+  --color-info: #1976D2;
+}
+
+body {
+  font-family: "Inter", "Noto Sans Arabic", sans-serif;
+  background-color: var(--color-bg);
+}
+
+[dir="rtl"] body {
+  font-family: "Noto Sans Arabic", "Inter", sans-serif;
+}
